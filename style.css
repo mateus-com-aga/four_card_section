@@ -1,0 +1,263 @@
+/** @format */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+    .header {
+        color: rgb(71, 71, 71);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: auto;
+        width: 100vw;
+        text-align: center;
+    }
+    .titulo3 {
+        margin-top: 15px;
+        font-size: 0.7rem;
+        margin: 13px 8px;
+        width: 70vw;
+        margin: auto;
+        color: gray;
+    }
+
+    .titulo1,
+    .titulo2 {
+        font-size: 1.3rem;
+        padding: 0px 12px;
+        margin: 3px 0px;
+    }
+
+    .titulo2 {
+        font-weight: bold;
+    }
+
+    .cards {
+        margin: auto;
+        margin-top: 35px;
+        width: 100vw;
+    }
+
+    .card {
+        width: 65vw;
+        height: 65vw;
+        margin: 23px auto;
+        position: relative;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000,
+            5px 5px 15px 5px rgba(0, 0, 0, 0);
+        box-shadow: 0px 10px 13px -7px #000000,
+            5px 5px 15px 5px rgba(0, 0, 0, 0);
+    }
+
+    .card-1 hr {
+        width: 65vw;
+        border: rgba(255, 0, 0, 0.4) 2px solid;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-2 hr {
+        width: 65vw;
+        border: rgba(0, 220, 37, 0.4) 2px solid;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-3 hr {
+        width: 65vw;
+        border: rgba(0, 132, 255, 0.4) 2px solid;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-4 hr {
+        width: 65vw;
+        border: rgba(250, 213, 0, 0.6) 2px solid;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card h3 {
+        margin: 5px 0px;
+        padding: 20px;
+        color: rgb(59, 59, 59);
+    }
+
+    .card h3 {
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 0.75rem;
+        padding: 0px 20px;
+    }
+
+    .card .fig img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .card .fig {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header {
+        color: rgb(71, 71, 71);
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: auto !important;
+        /* width: 32vw; */
+        text-align: center;
+        /* width: 100vw; */
+    }
+    .titulo3 {
+        margin-top: 5px;
+        font-size: 0.8rem;
+        width: 35vw;
+        color: gray;
+    }
+
+    .titulo1,
+    .titulo2 {
+        font-size: 1.9rem;
+        padding: 0px 12px;
+        margin-top: -20px;
+    }
+
+    .titulo2 {
+        font-weight: bold;
+    }
+
+    .cards {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        height: 500px;
+        align-items: center;
+    }
+
+    .card {
+        width: 22vw;
+        max-width: 300px;
+        min-width: 150px;
+        height: 15vw;
+        max-height: 250px;
+        min-height: 200px;
+        margin: 20px;
+        padding: 18px 27px;
+        position: relative;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000,
+            5px 5px 15px 5px rgba(0, 0, 0, 0);
+        box-shadow: 0px 10px 13px -7px #000000,
+            5px 5px 15px 5px rgba(0, 0, 0, 0);
+    }
+
+    .card-1 hr {
+        width: 22vw;
+        border: rgba(255, 0, 0, 0.4) 2px solid;
+        max-width: 300px;
+        min-width: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-2 hr {
+        width: 22vw;
+        border: rgba(0, 220, 37, 0.4) 2px solid;
+        max-width: 300px;
+        min-width: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-3 hr {
+        width: 22vw;
+        border: rgba(0, 132, 255, 0.4) 2px solid;
+        max-width: 300px;
+        min-width: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card-4 hr {
+        width: 22vw;
+        border: rgba(250, 213, 0, 0.6) 2px solid;
+        max-width: 300px;
+        min-width: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .card h3,
+    p {
+        margin: 10px 0px;
+        color: rgb(59, 59, 59);
+    }
+
+    .card h3 {
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 0.75rem;
+    }
+
+    .card .fig img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .card .fig {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .card-1 {
+        position: absolute;
+        top: 0;
+    }
+
+    .card-4 {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .card-2,
+    .card-3 {
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
